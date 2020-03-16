@@ -1,0 +1,16 @@
+<div class="form">
+    <div style="width: 500px; height: 400PX; margin: auto;background-color:cornsilk;align-content: center;">
+        <div style="text-align:center">
+            <h1>
+                Iniciar Sesión
+            </h1>
+        </div>
+        <div style="margin: 5%">
+            <dynamic-form [fields]="regConfig" (submit)="submit($event)">
+            </dynamic-form>
+            <a [routerLink]="['/registro']">Crear cuenta</a>
+            <br>
+            <!-- <mat-error>Hola</mat-error> -->
+        </div>
+    </div>
+</div>

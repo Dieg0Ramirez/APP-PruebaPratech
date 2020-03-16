@@ -1,0 +1,13 @@
+<div class="forsm">
+    <div style="width: 500px;  margin: auto;background-color:cornsilk;">
+        <div style="text-align:center">
+            <h1>
+                Formulario de registro
+            </h1>
+        </div>
+        <div style="margin: 10%; margin-bottom: 5%;">
+            <dynamic-form [fields]="regConfig" (submit)="submit($event)">
+            </dynamic-form>
+        </div>
+    </div>
+</div>
